@@ -1,5 +1,7 @@
 ## Homework
 
+[NOTEBOOK WITH ASWERS](/cohorts/2024/02-regression/homework_regression.ipynb)
+
 > Note: sometimes your answer doesn't match one of 
 > the options exactly. That's fine. 
 > Select the option that's closest to your solution.
@@ -46,7 +48,7 @@ There's one column with missing values. What is it?
 
 * `'ram'`
 * `'storage'`
-* `'screen'`
+* `'screen'` - CORRECT ANSWER
 * `'final_price'`
 
 
@@ -55,7 +57,7 @@ There's one column with missing values. What is it?
 What's the median (50% percentile) for variable `'ram'`?
 
 - 8
-- 16
+- 16 - CORRECT ANSWER
 - 24
 - 32
 
@@ -79,7 +81,7 @@ Use the same code as in the lectures
 
 Options:
 
-- With 0
+- With 0 - CORRECT ANSWER
 - With mean
 - Both are equally good
 
@@ -100,7 +102,7 @@ Options:
 - 0
 - 0.01
 - 1
-- 10
+- 10 - CORRECT ANSWER
 - 100
 
 
@@ -117,7 +119,7 @@ Options:
 What's the value of std?
 
 - 19.176
-- 29.176
+- 29.176 - CORRECT ANSWER
 - 39.176
 - 49.176
 
@@ -137,7 +139,7 @@ What's the value of std?
 Options:
 
 - 598.60
-- 608.60
+- 608.60 - CORRECT ANSWER
 - 618.60
 - 628.60
 
