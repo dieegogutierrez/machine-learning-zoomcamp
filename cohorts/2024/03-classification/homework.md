@@ -1,5 +1,7 @@
 ## Homework
 
+[NOTEBOOK WITH ASWERS](/cohorts/2024/03-classification/homework_classification.ipynb)
+
 > Note: sometimes your answer doesn't match one of the options exactly. 
 > That's fine. 
 > Select the option that's closest to your solution.
@@ -49,7 +51,7 @@ What is the most frequent observation (mode) for the column `education`?
 
 - `unknown`
 - `primary`
-- `secondary`
+- `secondary` - CORRECT ANSWER
 - `tertiary`
 
 
@@ -63,7 +65,7 @@ What are the two features that have the biggest correlation?
 - `age` and `balance`
 - `day` and `campaign`
 - `day` and `pdays`
-- `pdays` and `previous`
+- `pdays` and `previous` - CORRECT ANSWER
 
 
 ### Target encoding
@@ -87,7 +89,7 @@ Which of these variables has the biggest mutual information score?
 - `contact`
 - `education`
 - `housing`
-- `poutcome`
+- `poutcome` - CORRECT ANSWER
 
 
 ### Question 4
@@ -104,7 +106,7 @@ What accuracy did you get?
 - 0.6
 - 0.7
 - 0.8
-- 0.9
+- 0.9 - CORRECT ANSWER
 
 
 ### Question 5 
@@ -119,7 +121,7 @@ Which of following feature has the smallest difference?
 - `age`
 - `balance`
 - `marital`
-- `previous`
+- `previous` - CORRECT ANSWER
 
 > **Note**: The difference doesn't have to be positive.
 
@@ -134,7 +136,7 @@ Which of following feature has the smallest difference?
 Which of these `C` leads to the best accuracy on the validation set?
 
 - 0.01
-- 0.1
+- 0.1 - CORRECT ANSWER
 - 1
 - 10
 - 100
