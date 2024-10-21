@@ -1,5 +1,7 @@
 ## Homework
 
+[NOTEBOOK WITH ASWERS](/cohorts/2024/04-evaluation/homework_evaluation.ipynb)
+
 > Note: sometimes your answer doesn't match one of 
 > the options exactly. That's fine. 
 > Select the option that's closest to your solution.
@@ -64,7 +66,7 @@ Which numerical variable (among the following 4) has the highest AUC?
 
 - `balance`
 - `day`
-- `duration`
+- `duration` - CORRECT ANSWER
 - `previous`
 
 ### Question 2: Training the model
@@ -79,7 +81,7 @@ What's the AUC of this model on the validation dataset? (round to 3 digits)
 
 - 0.69
 - 0.79
-- 0.89
+- 0.89 - CORRECT ANSWER
 - 0.99
 
 
@@ -93,7 +95,7 @@ Now let's compute precision and recall for our model.
 
 At which threshold precision and recall curves intersect?
 
-* 0.265
+* 0.265 - CORRECT ANSWER
 * 0.465
 * 0.665
 * 0.865
@@ -114,7 +116,7 @@ Let's compute F1 for all thresholds from 0.0 to 1.0 with increment 0.01
 At which threshold F1 is maximal?
 
 - 0.02
-- 0.22
+- 0.22 - CORRECT ANSWER
 - 0.42
 - 0.62
 
@@ -136,7 +138,7 @@ KFold(n_splits=5, shuffle=True, random_state=1)
 How large is standard deviation of the scores across different folds?
 
 - 0.0001
-- 0.006
+- 0.006 - CORRECT ANSWER
 - 0.06
 - 0.26
 
@@ -154,7 +156,7 @@ Which `C` leads to the best mean score?
 
 - 0.000001
 - 0.001
-- 1
+- 1 - CORRECT ANSWER
 
 If you have ties, select the score with the lowest std. If you still have ties, select the smallest `C`.
 

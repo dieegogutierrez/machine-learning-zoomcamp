@@ -7,6 +7,8 @@
 
 Churn rate is a measure of the proportion of individuals or items leaving a group over a specific period. In this lesson, it refers to the likelihood of a client continuing to purchase (yi near 0) or ceasing to be a client (yi near 1).
 
+## Data Split With SKLEARN Package
+
 **Classes, functions, and methods:** 
 
 ```py
@@ -115,9 +117,6 @@ model = LogisticRegression(solver='lbfgs')
 # solver='lbfgs' is the default solver in newer version of sklearn
 # for older versions, you need to specify it explicitly
 model.fit(X_train, y_train)
-y_pred = model.predict_proba(X_val)[:, 1]
-churn_decision = (y_pred >= 0.5)
-(y_val == churn_decision).mean()
 ```
 
 * `LogisticRegression().fit(x, y)` - Scikit-Learn class for calculating the logistic regression model. 
@@ -129,6 +128,12 @@ churn_decision = (y_pred >= 0.5)
 ## Accuracy
 
 Different from linear regression we do not use "RMSE" here. We can check the accuracy of the model by comparing the predictions with the target (in other words, the error of our predictions) and calculating the mean of the error array. Even if the comparison vector is made of Booleans, NumPy will automatically convert them to 1's and 0's and calculate the mean.
+
+```py
+y_pred = model.predict_proba(X_val)[:, 1] # Use the second column only with the probabilities of churning
+churn_decision = (y_pred >= 0.5)
+accuracy = (y_val == churn_decision).mean()
+```
 
 ## Logistic Regression workflow recap
 
