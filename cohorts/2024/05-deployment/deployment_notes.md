@@ -77,3 +77,36 @@ gunicorn --bind 0.0.0.0:9696 subscription_serving:app
 docker build -t subscription-prediction .  
 docker run -it -p 9696:9696 subscription-prediction:latest
 ```
+
+## AWS CLOUD
+
+- Install EB CLI
+```bash
+pipenv install awsebcli --dev
+```
+- Generate Access Keys. Click on User at right up corner > Security Credentials > Access Keys
+- Initiate docker container on Elastic Bean. A prompt to enter ID and Key will show.
+```shell
+eb init -p docker subscription_serving
+```
+- Testing it locally.
+```shell
+eb local run --port 9696
+```
+- If prompted: ERROR: NotSupportedError - You can use "eb local" only with preconfigured, generic and multicontainer Docker platforms.
+```shell
+eb init -i
+```
+- Choose the following Docker option: Docker running on 64bit Amazon Linux 2023
+
+- Deploying to the cloud. Use the flag which automatically uses Launch Templates to avoid error.
+```shell
+eb create subscription-serving-env --enable-spot
+```
+- A URL will show at the end.
+
+- Terminate the cloud serving
+```shell
+eb terminate subscription-serving-env
+```
+
