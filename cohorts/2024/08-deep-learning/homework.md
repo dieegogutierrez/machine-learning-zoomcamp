@@ -1,5 +1,7 @@
 ## Homework
 
+[NOTEBOOK WITH ASWERS](/cohorts/2024/08-deep-learning/homework_deep_learning.ipynb)
+
 > **Note**: it's very likely that in this homework your answers won't match 
 > the options exactly. That's okay and expected. Select the option that's
 > closest to your solution.
@@ -77,7 +79,7 @@ For clarification about kernel size and max pooling, check [Office Hours](https:
 Since we have a binary classification problem, what is the best loss function for us?
 
 * `mean squared error`
-* `binary crossentropy`
+* `binary crossentropy` - CORRECT ANSWER
 * `categorical crossentropy`
 * `cosine similarity`
 
@@ -91,7 +93,7 @@ What's the total number of parameters of the model? You can use the `summary` me
 * 896 
 * 11214912
 * 15896912
-* 20072512
+* 20072512 - CORRECT ANSWER
 
 
 ### Generators and Training
@@ -124,14 +126,14 @@ What is the median of training accuracy for all the epochs for this model?
 * 0.10
 * 0.32
 * 0.50
-* 0.72
+* 0.72 - CORRECT ANSWER
 
 ### Question 4
 
 What is the standard deviation of training loss for all the epochs for this model?
 
 * 0.028
-* 0.068
+* 0.068 - CORRECT ANSWER
 * 0.128
 * 0.168
 
@@ -158,7 +160,7 @@ we already started training.
 What is the mean of test loss for all the epochs for the model trained with augmentations?
 
 * 0.26
-* 0.56
+* 0.56 - CORRECT ANSWER
 * 0.86
 * 1.16
 
@@ -169,7 +171,7 @@ for the model trained with augmentations?
 
 * 0.31
 * 0.51
-* 0.71
+* 0.71 - CORRECT ANSWER
 * 0.91
 
 ## Submit the results
