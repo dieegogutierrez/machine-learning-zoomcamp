@@ -1,5 +1,7 @@
 ## Homework
 
+[NOTEBOOK WITH ASWERS](/cohorts/2024/08-deep-learning/homework_deep_learning.ipynb)
+
 In this homework, we'll deploy the Straight vs Curly Hair Type model we trained in the 
 [previous homework](../08-deep-learning/homework.md).
 
@@ -17,7 +19,7 @@ What's the size of the **converted** model?
 
 * 27 Mb
 * 43 Mb
-* 77 Mb
+* 77 Mb - CORRECT ANSWER
 * 127 Mb
 
 
@@ -30,7 +32,7 @@ What's the output index for this model?
 
 * 3
 * 7
-* 13
+* 13 - CORRECT ANSWER
 * 24
 
 
@@ -82,7 +84,7 @@ Now we need to turn the image into numpy array and pre-process it.
 
 After the pre-processing, what's the value in the first pixel, the R channel?
 
-* 0.24
+* 0.24 - CORRECT ANSWER
 * 0.44
 * 0.64
 * 0.84
@@ -96,7 +98,7 @@ Now let's apply this model to this image. What's the output of the model?
 * 0.293
 * 0.493
 * 0.693
-* 0.893
+* 0.893 - CORRECT ANSWER
 
 ## Prepare the lambda code 
 
@@ -146,7 +148,7 @@ So what's the size of this base image?
 * 182 Mb
 * 382 Mb
 * 582 Mb
-* 782 Mb
+* 782 Mb - CORRECT ANSWER
 
 You can get this information when running `docker images` - it'll be in the "SIZE" column.
 
@@ -169,7 +171,7 @@ Score this image: https://habrastorage.org/webt/yf/_d/ok/yf_dokzqy3vcritme8ggnzq
 What's the output from the model?
 
 * 0.229
-* 0.429
+* 0.429 - CORRECT ANSWER
 * 0.629
 * 0.829
 
